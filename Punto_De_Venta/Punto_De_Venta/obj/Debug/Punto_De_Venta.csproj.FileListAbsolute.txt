@@ -1,0 +1,17 @@
+C:\Users\Sandra\source\repos\Punto_De_Venta\Punto_De_Venta\Punto_De_Venta\bin\Debug\Punto_De_Venta.exe.config
+C:\Users\Sandra\source\repos\Punto_De_Venta\Punto_De_Venta\Punto_De_Venta\bin\Debug\Punto_De_Venta.exe
+C:\Users\Sandra\source\repos\Punto_De_Venta\Punto_De_Venta\Punto_De_Venta\bin\Debug\Punto_De_Venta.pdb
+C:\Users\Sandra\source\repos\Punto_De_Venta\Punto_De_Venta\Punto_De_Venta\obj\Debug\Punto_De_Venta.csprojResolveAssemblyReference.cache
+C:\Users\Sandra\source\repos\Punto_De_Venta\Punto_De_Venta\Punto_De_Venta\obj\Debug\Punto_De_Venta.AltaProductos.resources
+C:\Users\Sandra\source\repos\Punto_De_Venta\Punto_De_Venta\Punto_De_Venta\obj\Debug\Punto_De_Venta.Properties.Resources.resources
+C:\Users\Sandra\source\repos\Punto_De_Venta\Punto_De_Venta\Punto_De_Venta\obj\Debug\Punto_De_Venta.csproj.GenerateResource.Cache
+C:\Users\Sandra\source\repos\Punto_De_Venta\Punto_De_Venta\Punto_De_Venta\obj\Debug\Punto_De_Venta.csproj.CoreCompileInputs.cache
+C:\Users\Sandra\source\repos\Punto_De_Venta\Punto_De_Venta\Punto_De_Venta\obj\Debug\Punto_De_Venta.exe
+C:\Users\Sandra\source\repos\Punto_De_Venta\Punto_De_Venta\Punto_De_Venta\obj\Debug\Punto_De_Venta.pdb
+C:\Users\Sandra\source\repos\Punto_De_Venta\Punto_De_Venta\Punto_De_Venta\obj\Debug\Punto_De_Venta.AltaUsuarios.resources
+C:\Users\Sandra\source\repos\Punto_De_Venta\Punto_De_Venta\Punto_De_Venta\obj\Debug\Punto_De_Venta.ArriboProductos.resources
+C:\Users\Sandra\source\repos\Punto_De_Venta\Punto_De_Venta\Punto_De_Venta\obj\Debug\Punto_De_Venta.ModificacionUsuario.resources
+C:\Users\Sandra\source\repos\Punto_De_Venta\Punto_De_Venta\Punto_De_Venta\obj\Debug\Punto_De_Venta.ReportesDeVenta.resources
+C:\Users\Sandra\source\repos\Punto_De_Venta\Punto_De_Venta\Punto_De_Venta\obj\Debug\Punto_De_Venta.Reporte_De_Productos.resources
+C:\Users\Sandra\source\repos\Punto_De_Venta\Punto_De_Venta\Punto_De_Venta\obj\Debug\Punto_De_Venta.Reporte_de_venta.resources
+C:\Users\Sandra\source\repos\Punto_De_Venta\Punto_De_Venta\Punto_De_Venta\bin\Debug\System.Data.SQLite.dll
