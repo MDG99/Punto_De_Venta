@@ -76,7 +76,6 @@ namespace Punto_De_Venta
         private void btmGuardar_Click(object sender, EventArgs e)
         {
             //Falta pasar la categoria, pero hasta que creen la tabla respectiva
-            //Hay que crear una excepciones
             if (ComprobarProductos())
             {
                 conexion.AddProducto(Convert.ToInt32(txtCodigo.Text), txtNombre.Text, txtDescripcion.Text,
@@ -94,8 +93,9 @@ namespace Punto_De_Venta
 
         public bool ComprobarProductos()
         {
-            //conexion.GetProductos()
-            return true;
+            if (conexion.GetProductos().Exists(E => E.Id == Convert.ToInt32(txtCodigo.Text) && E.Nombre == txtNombre.Text))
+                return false;
+            else return true;
         }
 
         public void Reiniciar()
