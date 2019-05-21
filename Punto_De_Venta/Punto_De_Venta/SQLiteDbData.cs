@@ -32,6 +32,24 @@ namespace SQLiteDb
             return productos;
         }
 
+        public List<Usuario> GetUsuarios()
+        {
+            List<Usuario> usuarios = new List<Usuario>();
+            using(SQLiteRecordSet rs = ExecuteQuery("SELECT * FROM usuarios"))
+            {
+                while (rs.NextRecord())
+                {
+                    usuarios.Add(new Usuario(rs.GetInt32("id"),
+                        rs.GetString("nombre"),
+                        rs.GetString("apellido"),
+                        rs.GetInt32("edad"),
+                        rs.GetInt32("administracion"),
+                        rs.GetInt32("estado")));
+                }
+            }
+            return usuarios;
+        }
+
         public void AddProducto(int id, string nombre, string descripcion, double precio, int cantidad)
         {
             using (SQLiteRecordSet rs = ExecuteQuery($"INSERT INTO productos (id, nombre, descripcion, precio, cantidad)" +

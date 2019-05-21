@@ -32,10 +32,10 @@ namespace Punto_De_Venta
        public string Nombre { get; }
        public string Apellido { get; }
        public int Edad { get; }
-       public string Administracion { get; }
-       public string Estado { get; }
+       public int Administracion { get; }
+       public int Estado { get; }
 
-        public Usuario(int id, string nombre, string apellido, int edad, string administracion, string estado)
+        public Usuario(int id, string nombre, string apellido, int edad, int administracion, int estado)
         {
             Id = id;
             Nombre = nombre;
