@@ -30,9 +30,9 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ReportesDeVenta));
             this.panel2 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btmAceptar = new System.Windows.Forms.Button();
+            this.btmReporteVenta = new System.Windows.Forms.Button();
+            this.btmReporteProducto = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.PanelEspecial = new System.Windows.Forms.Panel();
             this.panel2.SuspendLayout();
@@ -41,50 +41,51 @@
             // 
             // panel2
             // 
-            this.panel2.Controls.Add(this.button1);
+            this.panel2.Controls.Add(this.btmAceptar);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel2.Location = new System.Drawing.Point(0, 306);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(523, 41);
             this.panel2.TabIndex = 2;
             // 
-            // button1
+            // btmAceptar
             // 
-            this.button1.Location = new System.Drawing.Point(360, 3);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(118, 27);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Aceptar";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btmAceptar.Location = new System.Drawing.Point(360, 3);
+            this.btmAceptar.Name = "btmAceptar";
+            this.btmAceptar.Size = new System.Drawing.Size(118, 27);
+            this.btmAceptar.TabIndex = 0;
+            this.btmAceptar.Text = "Aceptar";
+            this.btmAceptar.UseVisualStyleBackColor = true;
+            this.btmAceptar.Click += new System.EventHandler(this.btmAceptar_Click);
             // 
-            // button2
+            // btmReporteVenta
             // 
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Location = new System.Drawing.Point(3, 3);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(108, 29);
-            this.button2.TabIndex = 0;
-            this.button2.Text = "Reporte de venta";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.btmReporteVenta.FlatAppearance.BorderSize = 0;
+            this.btmReporteVenta.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btmReporteVenta.Location = new System.Drawing.Point(3, 3);
+            this.btmReporteVenta.Name = "btmReporteVenta";
+            this.btmReporteVenta.Size = new System.Drawing.Size(108, 29);
+            this.btmReporteVenta.TabIndex = 0;
+            this.btmReporteVenta.Text = "Reporte de venta";
+            this.btmReporteVenta.UseVisualStyleBackColor = true;
+            this.btmReporteVenta.Click += new System.EventHandler(this.btmReporteVenta_Click);
             // 
-            // button3
+            // btmReporteProducto
             // 
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Location = new System.Drawing.Point(117, 3);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(130, 29);
-            this.button3.TabIndex = 1;
-            this.button3.Text = "Reporte de producto";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.btmReporteProducto.FlatAppearance.BorderSize = 0;
+            this.btmReporteProducto.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btmReporteProducto.Location = new System.Drawing.Point(117, 3);
+            this.btmReporteProducto.Name = "btmReporteProducto";
+            this.btmReporteProducto.Size = new System.Drawing.Size(130, 29);
+            this.btmReporteProducto.TabIndex = 1;
+            this.btmReporteProducto.Text = "Reporte de producto";
+            this.btmReporteProducto.UseVisualStyleBackColor = true;
+            this.btmReporteProducto.Click += new System.EventHandler(this.btmReporteProducto_Click);
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.button3);
-            this.panel1.Controls.Add(this.button2);
+            this.panel1.Controls.Add(this.btmReporteProducto);
+            this.panel1.Controls.Add(this.btmReporteVenta);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
@@ -120,9 +121,9 @@
 
         #endregion
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btmAceptar;
+        private System.Windows.Forms.Button btmReporteVenta;
+        private System.Windows.Forms.Button btmReporteProducto;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel PanelEspecial;
     }

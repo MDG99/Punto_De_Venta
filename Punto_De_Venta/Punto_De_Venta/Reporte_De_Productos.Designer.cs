@@ -32,10 +32,10 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.txtMasVendido = new System.Windows.Forms.TextBox();
+            this.txtMayorIngreso = new System.Windows.Forms.TextBox();
+            this.txtMenosVendido = new System.Windows.Forms.TextBox();
+            this.txtMenorIngreso = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -75,37 +75,37 @@
             this.label4.TabIndex = 3;
             this.label4.Text = "Producto con menores ingresos:";
             // 
-            // textBox1
+            // txtMasVendido
             // 
-            this.textBox1.Location = new System.Drawing.Point(197, 53);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(243, 20);
-            this.textBox1.TabIndex = 4;
+            this.txtMasVendido.Location = new System.Drawing.Point(197, 53);
+            this.txtMasVendido.Name = "txtMasVendido";
+            this.txtMasVendido.ReadOnly = true;
+            this.txtMasVendido.Size = new System.Drawing.Size(243, 20);
+            this.txtMasVendido.TabIndex = 4;
             // 
-            // textBox2
+            // txtMayorIngreso
             // 
-            this.textBox2.Location = new System.Drawing.Point(197, 123);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.ReadOnly = true;
-            this.textBox2.Size = new System.Drawing.Size(243, 20);
-            this.textBox2.TabIndex = 5;
+            this.txtMayorIngreso.Location = new System.Drawing.Point(197, 123);
+            this.txtMayorIngreso.Name = "txtMayorIngreso";
+            this.txtMayorIngreso.ReadOnly = true;
+            this.txtMayorIngreso.Size = new System.Drawing.Size(243, 20);
+            this.txtMayorIngreso.TabIndex = 5;
             // 
-            // textBox3
+            // txtMenosVendido
             // 
-            this.textBox3.Location = new System.Drawing.Point(197, 85);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.ReadOnly = true;
-            this.textBox3.Size = new System.Drawing.Size(243, 20);
-            this.textBox3.TabIndex = 6;
+            this.txtMenosVendido.Location = new System.Drawing.Point(197, 85);
+            this.txtMenosVendido.Name = "txtMenosVendido";
+            this.txtMenosVendido.ReadOnly = true;
+            this.txtMenosVendido.Size = new System.Drawing.Size(243, 20);
+            this.txtMenosVendido.TabIndex = 6;
             // 
-            // textBox4
+            // txtMenorIngreso
             // 
-            this.textBox4.Location = new System.Drawing.Point(197, 159);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.ReadOnly = true;
-            this.textBox4.Size = new System.Drawing.Size(243, 20);
-            this.textBox4.TabIndex = 7;
+            this.txtMenorIngreso.Location = new System.Drawing.Point(197, 159);
+            this.txtMenorIngreso.Name = "txtMenorIngreso";
+            this.txtMenorIngreso.ReadOnly = true;
+            this.txtMenorIngreso.Size = new System.Drawing.Size(243, 20);
+            this.txtMenorIngreso.TabIndex = 7;
             // 
             // label5
             // 
@@ -123,10 +123,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(480, 250);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtMenorIngreso);
+            this.Controls.Add(this.txtMenosVendido);
+            this.Controls.Add(this.txtMayorIngreso);
+            this.Controls.Add(this.txtMasVendido);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -134,6 +134,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Reporte_De_Productos";
             this.Text = "Reporte_De_Productos";
+            this.Load += new System.EventHandler(this.Reporte_De_Productos_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -145,10 +146,10 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox txtMasVendido;
+        private System.Windows.Forms.TextBox txtMayorIngreso;
+        private System.Windows.Forms.TextBox txtMenosVendido;
+        private System.Windows.Forms.TextBox txtMenorIngreso;
         private System.Windows.Forms.Label label5;
     }
 }

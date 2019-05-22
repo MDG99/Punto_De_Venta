@@ -55,6 +55,14 @@ namespace SQLiteDb
             using (SQLiteRecordSet rs = ExecuteQuery($"INSERT INTO productos (id, nombre, descripcion, precio, cantidad)" +
                 $" VALUES ({id}, '{nombre}','{descripcion}',{precio},{cantidad})")) { }
         }
+
+        public void UpdateUsuario (int id, int administracion, int estatus)
+        {
+            using(SQLiteRecordSet rs = ExecuteQuery($"UPDATE usuarios SET " +
+                $"administracion = {administracion} AND estado = {estatus}  WHERE id = {id}")) { }
+        }
+
+
     }
 
 }

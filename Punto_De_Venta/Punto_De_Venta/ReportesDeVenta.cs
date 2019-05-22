@@ -19,7 +19,6 @@ namespace Punto_De_Venta
             Agregarpanel(new Reporte_de_venta());
         }
 
-
         private void Agregarpanel(object forma)
         {
             if (PanelEspecial.Controls.Count > 0)
@@ -33,14 +32,20 @@ namespace Punto_De_Venta
             fh.Show();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void btmAceptar_Click(object sender, EventArgs e)
         {
-            Agregarpanel( new Reporte_de_venta());
+            PanelEspecial.Controls.Clear();//Checar si funciona
+            Close();
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void btmReporteVenta_Click(object sender, EventArgs e)
         {
-            Agregarpanel( new Reporte_De_Productos());
+            Agregarpanel(new Reporte_de_venta());
+        }
+
+        private void btmReporteProducto_Click(object sender, EventArgs e)
+        {
+            Agregarpanel(new Reporte_De_Productos());
         }
     }
 }

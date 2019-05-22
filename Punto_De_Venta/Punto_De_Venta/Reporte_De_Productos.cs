@@ -18,5 +18,10 @@ namespace Punto_De_Venta
         {
             InitializeComponent();
         }
+
+        private void Reporte_De_Productos_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
